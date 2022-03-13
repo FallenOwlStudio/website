@@ -37057,7 +37057,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-file-icon-1 {
   font-size: calc(1em + 30px);
-  padding: 15px 38px;
+  padding: 15px 58px;
 }
 
 .u-header .u-nav-2 {
@@ -37125,27 +37125,40 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-menu-1 {
-    margin-top: 1px;
+    margin-top: 5px;
+    margin-right: calc(((100% - 720px) / 2));
+  }
+
+  .u-header .u-file-icon-1 {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .u-header .u-text-1 {
-    margin-top: -84px;
+    margin-top: -81px;
   }
 
   .u-header .u-image-1 {
     width: 69px;
     height: 69px;
     margin-top: -60px;
-    margin-bottom: -4px;
+    margin-bottom: 5px;
+    margin-left: calc(((100% - 720px) / 2));
   }
 }
 @media (max-width: 767px) {
    .u-header {
-    min-height: 103px;
+    min-height: 104px;
   }
 
   .u-header .u-menu-1 {
     margin-top: 12px;
+    margin-right: calc(((100% - 540px) / 2));
+  }
+
+  .u-header .u-file-icon-1 {
+    padding-left: 28px;
+    padding-right: 28px;
   }
 
   .u-header .u-text-1 {
@@ -37158,6 +37171,7 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-image-1 {
     margin-top: -57px;
     margin-bottom: 15px;
+    margin-left: calc(((100% - 540px) / 2));
   }
 }
 @media (max-width: 575px) {
@@ -37166,20 +37180,19 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-menu-1 {
-    margin-top: 1px;
-    margin-right: calc(((100% - 340px) / 2) + -51px);
+    margin-top: 16px;
+    margin-right: calc(((100% - 340px) / 2));
   }
 
   .u-header .u-file-icon-1 {
     font-size: calc(1em + 10px);
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 20px;
   }
 
   .u-header .u-text-1 {
     font-size: 1.5rem;
     width: 191px;
-    margin-top: -29px;
+    margin-top: -30px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -37187,6 +37200,7 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-image-1 {
     margin-top: -48px;
     margin-bottom: -12px;
+    margin-left: calc(((100% - 340px) / 2));
   }
 }
  .u-footer {
@@ -37213,7 +37227,12 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 767px) {
   .u-footer .u-sheet-1 {
-    min-height: 57px;
+    min-height: 37px;
+  }
+
+  .u-footer .u-text-1 {
+    margin-top: 7px;
+    margin-bottom: 7px;
   }
 }
 @media (max-width: 575px) {
