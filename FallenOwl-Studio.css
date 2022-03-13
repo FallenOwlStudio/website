@@ -1,17 +1,18 @@
  .u-section-1 {
   background-image: url("images/rfr-min.jpg");
-  background-position: 100% 50%;
+  background-position: 100% 0%;
+  background-size: 115%;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 50vw;
+  min-height: 738px;
 }
 
 .u-section-1 .u-slider-1 {
   min-height: 358px;
   width: 636px;
   height: auto;
-  margin: 370px auto 40px 41px;
+  margin: 245px auto 60px 35px;
 }
 
 .u-section-1 .u-carousel-indicators-1 {
@@ -104,13 +105,21 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-1 {
+    background-size: auto 115%;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 50vw;
+  }
+
   .u-section-1 .u-slider-1 {
-    margin-top: 375px;
-    margin-bottom: 35px;
-    margin-left: 25px;
+    margin-top: 284px;
+    margin-left: 30px;
   }
 
   .u-section-1 .u-text-1 {
+    width: auto;
     margin-right: 0;
   }
 
@@ -142,7 +151,9 @@
   .u-section-1 .u-slider-1 {
     min-height: 349px;
     width: 695px;
-    margin: 259px 0 60px auto;
+    margin-top: 259px;
+    margin-right: 0;
+    margin-left: auto;
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -190,14 +201,14 @@
   .u-section-1 .u-slider-1 {
     min-height: 321px;
     margin-top: 16px;
-    margin-bottom: 40px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
   }
 
   .u-section-1 .u-carousel-indicators-1 {
-    inset: auto auto 31px 0px;
+    left: 11px;
+    bottom: 17px;
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -206,7 +217,8 @@
   }
 
   .u-section-1 .u-btn-1 {
-    margin-left: 0;
+    margin-top: 14px;
+    margin-left: 17px;
   }
 
   .u-section-1 .u-container-layout-2 {
@@ -238,7 +250,6 @@
   .u-section-1 .u-slider-1 {
     min-height: 433px;
     margin-top: 58px;
-    margin-bottom: 60px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
@@ -247,6 +258,7 @@
   .u-section-1 .u-carousel-indicators-1 {
     left: 20px;
     bottom: 0;
+    inset: auto auto 31px 0px;
   }
 
   .u-section-1 .u-text-2 {
@@ -448,7 +460,6 @@
   .u-section-2 .u-repeater-1 {
     grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
     min-height: 53px;
-    grid-auto-columns: calc(33.3333% - 6.66667px);
   }
 
   .u-section-2 .u-btn-1 {
@@ -587,7 +598,6 @@
 
 .u-section-3 .u-repeater-1 {
   min-height: 59px;
-  grid-auto-columns: calc(33.3333% - 8.66667px);
   grid-template-columns: calc(33.3333% - 8.66667px) calc(33.3333% - 8.66667px) calc(33.3333% - 8.66667px);
   grid-gap: 13px 13px;
 }
